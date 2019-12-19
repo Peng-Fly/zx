@@ -602,7 +602,11 @@ body {
           align-items: center;
   background-blend-mode: multiply;
   -webkit-animation: page-fade-in 2s;
-          animation: page-fade-in 2s
+          animation: page-fade-in 2s;
+  background-image:url('../img/bg.jpg');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
 }
 
 @-webkit-keyframes page-fade-in {
